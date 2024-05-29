@@ -3,64 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Homepage</title>
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Wang Zijian's Homepage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-100 font-sans leading-normal tracking-normal">
-
-    <!-- Header Section -->
-    <header class="bg-blue-900 text-white p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-3xl font-bold">My Name</h1>
+<body>
+    <div class="container">
+        <!-- 左侧栏 -->
+        <div class="sidebar">
+            <h2>Wang Zijian</h2>
             <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="#about" class="hover:underline">About</a></li>
-                    <li><a href="#projects" class="hover:underline">Projects</a></li>
-                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                <ul>
+                    <li><a href="#">Home</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container mx-auto p-8">
-        <h2 class="text-2xl font-bold mb-4">About Me</h2>
-        <p class="text-gray-700">Welcome to my personal website! I am a passionate developer with a love for coding and creating innovative solutions...</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="bg-gray-200 p-8">
-        <div class="container mx-auto">
-            <h2 class="text-2xl font-bold mb-4">Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <!-- Project 1 -->
-                <div class="bg-white p-4 rounded shadow">
-                    <h3 class="text-xl font-bold">Project Title 1</h3>
-                    <p class="text-gray-700">Description of project 1...</p>
-                </div>
-                <!-- Add more projects as needed -->
-            </div>
+        
+        <!-- 主内容区 -->
+        <div class="main-content">
+            <header>
+                <h1>Wang Zijian</h1>
+            </header>
+            
+            <section class="profile">
+                <img src="path/to/your/image.jpg" alt="Wang Zijian">
+                <p>Bachelor's Degree in Software Engineering,<br>
+                Cooperation with Ritsumeikan University,<br>
+                Dalian University of Technology</p>
+                <p>Email: 1079477646@mail.dlut.edu.cn · zijianwang.work@outlook.com</p>
+            </section>
+            
+            <section class="about">
+                <h2>About me</h2>
+                <p>I am a bachelor's student at Dalian University of Technology, studying Software Engineering. My core modules include Linear Algebra and Analytic Geometry, Differential Geometry, Operating System, AI Technical Advanced A, Software Development Paradigm and Technology, Computational Intelligence, and Database System Exercise.</p>
+            </section>
+            
+            <section class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Bachelor's Degree in Software Engineering, Cooperation with Ritsumeikan University, Dalian University of Technology. Sep. 2021 - Present, GPA: 3.7, Rank: 19/90</li>
+                </ul>
+            </section>
+            
+            <section class="research">
+                <h2>Research Experience</h2>
+                <ul>
+                    <li>Multi-Agent Reinforcement Learning Optimization, University of Cambridge. Jul. 2023 - Aug. 2023, Group leader.</li>
+                    <li>Multimodal Odometry Estimation, Multimodal lab, Dalian University of Technology. Aug. 2023 - Present, Group member.</li>
+                    <li>Health Care Based on Smartphone Sensors, Dalian University of Technology. Apr. 2024 - Present, Personal Project.</li>
+                    <li>Video Action Recognition Combining 3D Convolution and Vision Transformers, Dalian University of Technology. Apr. 2024 - Jun. 2024, Group leader.</li>
+                </ul>
+            </section>
+            
+            <section class="projects">
+                <h2>Projects Experience</h2>
+                <ul>
+                    <li>Personal Image Retrieval System Based on BLIP, Dalian University of Technology. Mar. 2024 - Jun. 2024, Group leader.</li>
+                </ul>
+            </section>
+            
+            <section class="extracurricular">
+                <h2>Leadership & Extracurricular Experience</h2>
+                <ul>
+                    <li>President, Calligraphy Club. Sep. 2022 - Aug. 2023.</li>
+                    <li>Volunteer, Peer Support Program. Sep. 2021 - Feb. 2022.</li>
+                </ul>
+            </section>
+            
+            <section class="awards">
+                <h2>Awards</h2>
+                <ul>
+                    <li>Excellent Student of the Year, 2021-2022</li>
+                    <li>Second-Class Academic Scholarship, 2021-2022</li>
+                    <li>Cultural and Sports Scholarship, 2021-2022</li>
+                    <li>First Prize in the "Hanmo Shuxiang" Dalian Calligraphy Competition, May. 2022</li>
+                    <li>Rated A in the Cambridge University Deep Reinforcement Learning Summer Program, Aug. 2023</li>
+                </ul>
+            </section>
+            
+            <section class="skills">
+                <h2>Technical Skills</h2>
+                <p>Languages: English (IELTS 6.5: Listening 6.5, Reading 7.5, Writing 6.5, Speaking 6.0), Japanese<br>
+                Programming Language: Python, C++, Java (Android)<br>
+                Tools: SQL, Latex, Markdown, Git<br>
+                Other Interests: Badminton, Calligraphy, Go</p>
+            </section>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container mx-auto p-8">
-        <h2 class="text-2xl font-bold mb-4">Contact</h2>
-        <p class="text-gray-700">Feel free to reach out to me through the following platforms:</p>
-        <ul class="list-disc list-inside">
-            <li>Email: myemail@example.com</li>
-            <li>GitHub: <a href="https://github.com/myusername" class="text-blue-500 hover:underline">myusername</a></li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/myusername" class="text-blue-500 hover:underline">myusername</a></li>
-        </ul>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-blue-900 text-white p-4">
-        <div class="container mx-auto text-center">
-            &copy; 2024 My Name. All rights reserved.
-        </div>
-    </footer>
-
+    </div>
 </body>
 </html>

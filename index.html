@@ -1,1 +1,66 @@
-<hl>Welcome to my private site! </hl>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Homepage</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <!-- Header Section -->
+    <header class="bg-blue-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">My Name</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:underline">About</a></li>
+                    <li><a href="#projects" class="hover:underline">Projects</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto p-8">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+        <p class="text-gray-700">Welcome to my personal website! I am a passionate developer with a love for coding and creating innovative solutions...</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-200 p-8">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Project 1 -->
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-bold">Project Title 1</h3>
+                    <p class="text-gray-700">Description of project 1...</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto p-8">
+        <h2 class="text-2xl font-bold mb-4">Contact</h2>
+        <p class="text-gray-700">Feel free to reach out to me through the following platforms:</p>
+        <ul class="list-disc list-inside">
+            <li>Email: myemail@example.com</li>
+            <li>GitHub: <a href="https://github.com/myusername" class="text-blue-500 hover:underline">myusername</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/myusername" class="text-blue-500 hover:underline">myusername</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white p-4">
+        <div class="container mx-auto text-center">
+            &copy; 2024 My Name. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
